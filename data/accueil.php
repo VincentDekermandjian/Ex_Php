@@ -18,7 +18,6 @@
   </header>
 <nav>
   <ul>
-    <a href="./formulaire.php"><li>Acheter un prdouit </li></a>
     <?php echo '<a href="./deconnect.php"><li>Deconnexion</li></a>'; ?>
   </ul>
 </nav>
@@ -38,9 +37,9 @@
     foreach ($market as $key => $value) {
         $tr = '<tr>';
         $tr .= '<td>'.$value['nom'].'</td>';
-        $tr .= '<td>'.$value['images'].'</td>';
+        $tr .= '<td><img src='.$value['images'].'></td>';
         $tr .= '<td>'.$value['quantite'].'</td>';
-        $tr .= '<td>'.$value['prix'].'</td>';
+        $tr .= '<td>'.$value['prix'].'€'.'</td>';
         $tr .= '</tr>'; 
         echo $tr;
     }

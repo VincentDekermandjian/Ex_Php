@@ -16,7 +16,7 @@ header{
     top: 0;
     height: 5vh;
     width: 100vw;;
-    background: cadetblue;
+    background: rgba(196, 17, 71, 0.973);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -32,8 +32,8 @@ header{
     height: 25px;
     margin-top: 10px; 
     background-color: white;
-    border: 2px solid rgba(6, 138, 161);
-    color: rgba(6, 138, 161);
+    background: rgba(196, 17, 71, 0.973);
+    color: rgba(196, 17, 71, 0.973);
     border-radius: 5px;
     font-family: 'Orbitron', sans-serif;
     padding: 5px;
@@ -81,14 +81,14 @@ footer{
     bottom: 0;
     height: 5vh;
     width: 100vw;;
-    background: cadetblue;
+    background: rgb(196, 17, 71, 0.973);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 table{
     margin-top: 2vh; 
-    background: cadetblue;
+    background: rgb(196, 17, 71, 0.973);
     color: white;
     width: 95vw;
     color: white;
@@ -103,4 +103,8 @@ th, td{
     border: 1px solid white;
 }th{
     font-size: 1.3rem;
+}
+img{
+    height: 160px;
+    width: 250px;
 }
